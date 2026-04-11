@@ -63,7 +63,7 @@ export class GameManager {
                     // Get seed info from drag data (passed via dataTransfer)
                     // Note: In a real app we might pass the seed ID.
                     // For now we know it's s1.png
-                    this.assetManager.drawSeedOnFace(faceIndex, '/crops/s1.png');
+                    this.assetManager.drawSeedOnFace(faceIndex, 'crops/s1.png');
                 }
             }
         });
